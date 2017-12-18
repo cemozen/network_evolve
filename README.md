@@ -1,1 +1,4 @@
 # network_evolve
+Summary:
+This project aims to evolve genetic circuits in silico. The inspiration for the project has come from the article "Evolutionary design of oscillatory genetic networks" by Y. Kobayashi, T. Shibata, Y. Kuramoto, and A. S. Mikhailov, Eur. Phys. J. B, 76, 167-178 (2010).
+However, in this project I employ a more general model for gene interaction in which the nodes (genes) can interact via activation or inhibition links (in the article, only inhibition type interactions were allowed). In this project, gene networks of desired number of nodes and links (if desired, with  specific numbers of activation and inhibition links) can be evolved. It is possible to design networks with a desired type of dynamics (stable fixed point, oscillatory, or chaotic). One can also evolve oscillators with a specific period.    
